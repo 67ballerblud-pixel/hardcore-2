@@ -1,0 +1,17 @@
+name: HardcoreReset
+version: 1.0.0
+main: dev.hardcorereset.HardcoreReset
+api-version: '26.2'
+description: Hardcore marathon world. Any death starts a countdown, then a brand new world and seed, and everyone is wiped.
+commands:
+  hcreset:
+    description: Force a reset of the hardcore world (starts the countdown)
+    usage: /hcreset
+    permission: hardcorereset.admin
+  hcdeaths:
+    description: Show who has died, how many times, and the most recent deaths
+    usage: /hcdeaths
+permissions:
+  hardcorereset.admin:
+    description: Allows /hcreset
+    default: op

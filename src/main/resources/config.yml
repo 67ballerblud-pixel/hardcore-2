@@ -1,0 +1,6 @@
+# Seconds on the countdown after a death
+countdown-seconds: 10
+
+# Managed by the plugin, don't edit while the server is running.
+run: 0
+seed: 0
